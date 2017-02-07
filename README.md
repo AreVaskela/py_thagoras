@@ -1,7 +1,9 @@
 # py_thagoras
 pythonskripti, joka muuttaa input tiedoston jalkoina olevat luvut metreiksi ja laskee hypotenuusan
 
-Tehtävänanto oli näiin:
+Tehty python 2.7.x:llä ja kun python on PATHissa, niin ajoon shellistä "python .\pythagoras.py"
+
+Tehtävänanto oli näin, näkyy paremmin tekstieditorissa:
 
 Make a program, which reads from an input file length of legs (A and B) of a right-angled triangle. 
 Calculate length of the hypotenuse using Pythagoras’s law (hypotenuse² = legA² + LegB²). Name 
