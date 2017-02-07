@@ -1,7 +1,7 @@
 # py_thagoras
 pythonskripti, joka muuttaa input tiedoston jalkoina olevat luvut metreiksi ja laskee hypotenuusan
 
-Tehty python 2.7.x:llä ja kun python on PATHissa, niin ajoon shellistä "python .\pythagoras.py"
+Tehty python 2.7.x:llä ja kun python on PATHissa, niin ajoon shellistä "python .\pythagoras.py input.tiedosto output.tiedosto"
 
 Tehtävänanto oli näin, näkyy paremmin tekstieditorissa:
 
