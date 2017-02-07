@@ -29,8 +29,7 @@ for line in lines:
 	n1, n2 = line.split()
 	output_file.write("%.2f " % toMeter(n1))
 	output_file.write("%.2f " % toMeter(n2))
-	output_file.write("%.4f" % laskePythagoras(toMeter(n1),toMeter(n2)))
-	output_file.write("\n")
+	output_file.write("%.4f\n" % laskePythagoras(toMeter(n1),toMeter(n2)))
 
 #suljetaa tiedostot
 output_file.close()
