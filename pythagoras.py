@@ -3,8 +3,7 @@
 # input tulee py_input.txt filusta ja on otsikkorivi ja kahden floatin riveja
 # output menee py_output.txt filuun ja on otsikkorivi, eka sivu metrina, toka sivu metrina ja hypotenuusa
 
-import math
-import sys
+import math, sys
 
 # hypotenuusan lasku
 def laskePythagoras(sivu1, sivu2):
