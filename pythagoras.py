@@ -15,12 +15,12 @@ def toMeter(feet):
 	return float(f*0.3048)
 
 #input rivi kerrallaan, eka rivi pois, autoclose
-with open("py_input.txt", "r") as input_file:
+with open(str(sys.argv[1]), "r") as input_file:
 	lines=input_file.readlines()
 	lines.pop(0)
 
 #output, eka rivi valmiiksi
-output_file = open("py_output.txt", "w")
+output_file = open(str(sys.argv[2]), "w")
 output_file.write("legA legB hypotenuse\n")
 
 #rivien splittaus ja tuloksen kirjoitus
