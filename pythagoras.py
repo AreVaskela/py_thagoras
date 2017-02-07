@@ -23,7 +23,7 @@ with open("py_input.txt", "r") as input_file:
 output_file = open("py_output.txt", "w")
 output_file.write("legA legB hypotenuse\n")
 
-#rivien splittaus
+#rivien splittaus ja tuloksen kirjoitus
 for line in lines:
 	n1, n2 = line.split()
 	output_file.write("%.2f " % toMeter(n1))
